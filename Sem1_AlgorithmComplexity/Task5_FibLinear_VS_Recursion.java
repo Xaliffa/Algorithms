@@ -34,15 +34,18 @@ public class Task5_FibLinear_VS_Recursion {
         // return fibArray;
 
         // WORKSHOP VERSION
-        int posNumber = 42;
-
+        int posNumber = 40;
+        long start = System.currentTimeMillis();
         AtomicLong cnt = new AtomicLong(0);
         System.out.println(fibLinear(posNumber, cnt));
-        System.out.println("If linear complexity: " + cnt);
+        long time = System.currentTimeMillis() - start;
+        System.out.println("If linear complexity: " + cnt + ", " + time);
 
-        cnt = new AtomicLong(0); // просто обнулили
+        start = System.currentTimeMillis();
+        cnt = new AtomicLong(0); // просто обнулили все
         System.out.println(fibonacchi(posNumber, cnt));
-        System.out.println("If exponential complexity: " + cnt);
+        time = System.currentTimeMillis() - start;
+        System.out.println("If exponential complexity: " + cnt + ", " + time);
     }
 
     public static int fibLinear(int number, AtomicLong count) {
