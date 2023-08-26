@@ -8,7 +8,7 @@ import java.util.List;
 
 public class Task2_QuadraticComplexity {
     public static void main(String[] args) {
-        int myNumber = 100;
+        int myNumber = 1000;
         List<Integer> primeNums = findPrimeNums(myNumber);
         System.out.println("Prime nums from 1 to " + myNumber + " are: " + primeNums);
     }
