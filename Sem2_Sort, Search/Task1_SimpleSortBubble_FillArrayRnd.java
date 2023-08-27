@@ -3,7 +3,7 @@
 // 3.Следует обратить внимание на сложность данных алгоритмов и
 // указать признаки квадратичной сложности для каждого из них.
 
-import java.util.Random;
+//import java.util.Random;
 
 public class Task1_SimpleSortBubble_FillArrayRnd {
 
