@@ -37,7 +37,7 @@ public class Task1_SimpleSortBubble_FillArrayRnd {
         return array;
     }
 
-    // ЕЩЁ ВАРИАНТ РАНДОМНОГО ЗАПОЛНЕНИЯ, НЕ ТЕСТИРОВАЛА
+    // ЕЩЁ ВАРИАНТ РАНДОМНОГО ЗАПОЛНЕНИЯ, НЕ ТЕСТИРОВАЛА, БАУНД МОЖНО ОСТАВИТЬ()
 
     // public static void fillArrayRandom(int[] array, int bound){
     //     Random r = new Random();
